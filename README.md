@@ -1,4 +1,4 @@
-MRI Brain Tumor Classification
+## MRI Brain Tumor Classification
 
 This project focuses on **classifying brain MRI scans** into four categories — **Glioma**, **Meningioma**, **No Tumor**, and **Pituitary** using both **custom-built CNN architectures** and **pre-trained deep learning models**.
 
