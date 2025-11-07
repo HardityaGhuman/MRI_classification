@@ -1,0 +1,62 @@
+# -----------------------
+# Project: MRI_classification
+# -----------------------
+
+# --- Keep README and requirements ---
+!README.md
+!requirements.txt
+
+# --- Keep notebooks (but NOT their checkpoints) ---
+!notebooks/
+!notebooks/*.ipynb
+notebooks/.ipynb_checkpoints/
+
+# --- Data / big files (ignore all dataset folders) ---
+/data/
+/data_*/
+data/
+/data_small/
+/data_small_*/
+
+# --- Models / weights / outputs / logs (large files) ---
+/models/
+/outputs/
+/checkpoints/
+/weights/
+/logs/
+*.h5
+*.keras
+*.ckpt
+*.ckpt.index
+*.pt
+*.pth
+
+# --- Virtualenvs / conda envs ---
+.env
+.venv
+venv/
+env/
+ENV/
+conda-env.yml
+environment.yml
+
+# --- Python cache / compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Notebook internal / caching / misc ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- OS / Editor files ---
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+
+# --- Optional: ignore large folders you may have ---
+/data_small_preprocessed/
